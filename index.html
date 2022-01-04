@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>THE AVENGER DISPATCH</title> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+            <style>
+            body {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto; 
+                color: white;
+                background-color: #202020;
+            }
+            header {
+                color: white;
+                font-family: 'Oswald', sans-serif;
+                text-align: center;
+            }
+                @media (min-width: 600px) {
+            ul {
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                background-color: black;
+                font-family: 'Oswald', sans-serif;
+                font-size: 3vw;
+                font-style: bold;
+                letter-spacing: 5px;
+                text-align: center;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 3vw;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: #260033;
+                color: mediumpurple;
+            }
+            img {
+                width:100%; 
+                height:auto; 
+                object-fit:cover;
+            }
+            section {
+                width: 100%;
+                padding: 15px;
+                font-size: 1.75vw; 
+            }
+            article {
+                text-align: justify;
+                float: left;
+            }
+            #article1, article3 {
+                width: 65vw;    
+            }
+           #article2, #article4 {
+                width: 90vw
+            }
+            #figure1 {
+                width: 30vw;
+                padding: 15px;
+                float: left;
+            }
+            #figure2 {
+                width: 30vw;
+                padding: 15px;
+                float: left;
+            }
+            h1 {
+                font-family: 'Oswald', sans-serif;  
+                text-align: center;
+                margin-top: 2vw;
+                font-style: italic;
+                font-size: 5vw;
+            }
+            h2 {
+               background-color: #38004d;
+               padding: 15px;
+               font-style: bold;
+               font-size: 3vw;
+               float: left;
+               font-family: 'Oswald', sans-serif;
+            }
+            h3 {
+                font-family: 'Oswald', sans-serif;  
+                text-align: center;
+                margin-top: 1vw;
+                font-size: 2vw;
+            }
+            h4 {
+               color: #38004d;
+               font-family: 'Oswald', sans-serif;  
+               text-align: center;
+               margin-top: 2vw;
+               font-style: italic;
+               font-size: 5vw;
+            }
+            #figure3 {
+                width: 100%; 
+                margin-bottom: 0;
+            }
+            #section2 {
+                font-family: 'Oswald', sans-serif;  
+                text-align: center;
+                font-size: 2vw;
+                width: 100%;
+                float: left;
+                background-color: #bf80ff;
+                margin: 0;
+                color: black;
+            }
+            #aside1, #aside2 {
+                width: 42vw;
+                float:left;
+                margin-left: 5vw;
+            }
+            iframe {
+                align-content: center;
+                width: 43vw;
+                height: 30vw;
+            }
+            #figure4 {
+                align-content: center;
+                width: 42vw;
+                padding-left: 50px;
+                padding-right: 50px;
+                transition: transform .2s;
+                margin: 0 auto;
+            }
+            #figure4:hover {
+                transform: scale(1.5);   
+            }
+            p {
+                padding-top: 2vw;
+            }
+            footer {
+                 font-family: 'Oswald', sans-serif;  
+                 font-size: 2vw;
+                 padding: 3vw;
+                 float: left;
+            }
+            #aside4 {
+                 float: left;
+                 width: 80vw;
+            }
+            #aside5 {
+                 float: left;
+                 width: 10vw;
+            }
+            }
+            ul {
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                background-color: black;
+                font-family: 'Oswald', sans-serif;
+                font-size: 3vw;
+                font-style: bold;
+                letter-spacing: 5px;
+                text-align: center;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 3vw;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: #260033;
+                color: mediumpurple;
+            }
+            img {
+                width:100%; 
+                height:auto; 
+                object-fit:cover;
+            }
+            #section1 {
+                width: 100%;
+                padding: 15px;
+                font-size: 1.75vw; 
+            }
+            article {
+                text-align: justify;
+                float: left;
+            }
+            #article1, #article3 {
+                width: 60vw;    
+            }
+            #article2, #article4 {
+                width: 90vw
+            }
+            #figure1 {
+                width: 30vw;
+                padding: 15px;
+                float: left;
+            }
+            #figure2 {
+                width: 30vw;
+                padding: 15px;
+                float: left;
+            }
+            h1 {
+                font-family: 'Oswald', sans-serif;  
+                text-align: center;
+                margin-top: 2vw;
+                font-style: italic;
+                font-size: 5vw;
+            }
+            h2 {
+               background-color: #38004d;
+               padding: 15px;
+               font-style: bold;
+               font-size: 3vw;
+               float: left;
+               font-family: 'Oswald', sans-serif;
+            }
+            h3 {
+                font-family: 'Oswald', sans-serif;  
+                text-align: center;
+                margin-top: 1vw;
+                font-size: 2vw;
+            }
+            h4 {
+               color: #38004d;
+               font-family: 'Oswald', sans-serif;  
+               text-align: center;
+               margin-top: 2vw;
+               font-style: italic;
+               font-size: 5vw;
+            }
+            #figure3 {
+                width: 100%; 
+                margin-bottom: 0;
+            }
+            #section2 {
+                font-family: 'Oswald', sans-serif;  
+                text-align: center;
+                font-size: 2vw;
+                width: 100%;
+                float: left;
+                background-color: #bf80ff;
+                margin: 0;
+                color: black;
+            }
+            #aside1, #aside2 {
+                width: 42vw;
+                float:left;
+                margin-left: 5vw;
+            }
+            iframe {
+                align-content: center;
+                width: 43vw;
+                height: 30vw;
+            }
+            #figure4 {
+                align-content: center;
+                width: 42vw;
+                padding-left: 50px;
+                padding-right: 50px;
+                transition: transform .2s;
+                margin: 0 auto;
+            }
+            #figure4:hover {
+                transform: scale(1.5);   
+            }
+            p {
+                padding-top: 2vw;
+            }
+            footer {
+                 font-family: 'Oswald', sans-serif;  
+                 font-size: 2vw;
+                 padding: 3vw;
+                 float: left;
+            }
+            #aside4 {
+                 float: left;
+                 width: 80vw;
+            }
+            #aside5 {
+                 float: left;
+                 width: 10vw;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <img src="header.PNG" alt='The Avenger Dispatch Header'>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">COMICS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>----------------- T O P - N E W S -----------------</h1>
+        <h3>Find out more on our NEWS page!</h3>
+        <section id="section1">
+            <h2>Marvel’s Eternals could explain lingering Thanos mystery from Avengers: Infinity War</h2>
+            <figure id="figure1">
+                <img src="https://cdn.mos.cms.futurecdn.net/efMeqBwB9Rj5wVLjqqTUbF-480-80.jpg" alt="New 1 Image">
+            </figure>
+            <article id="article1"><h2 style="display:none">yey</h2>
+            Some Marvel fans have speculated that the forthcoming Eternals movie will fill in a key part of its Infinity Stone saga. <br/><br/>In the 2018 film Avengers: Infinity War, the villainous Thanos (Josh Brolin) was seen acquiring the all-powerful Infinity Stones, eventually using them to wipe out half of all life in the universe.</article>
+            <article id="article2"><h2 style="display:none">yey</h2> 
+            However, while we are shown exactly how Thanos acquired five of the six stones (the Soul, Mind, Reality, Space and Time Stones), the character's pursuit of the Power Stone is only explained away in a line of dialogue.Showing up at the start of Infinity War with the Power Stone already in his possession, Thanos mentions he took hold of the stone during his attack on the planet Xandar. But we never actually see how this went down.<br/><br/>Based on details that have already emerged about Eternals, fans believe that the film will provide a deep dive into the history of the Infinity Stones, from their creation through to their eventual destruction at the hands of Thanos.<a href="https://www.independent.co.uk/arts-entertainment/films/news/eternals-thanos-marvel-infinity-stones-b1800298.html"> Read More.</a><br/><br/></article>
+            <h2>Spider-Man: No Way Home star Tom Holland describes a scene from the film that teases the presence of a mystery character.</h2>
+            <figure id="figure2"><img src="https://www.denofgeek.com/wp-content/uploads/2021/10/spider-man-no-way-home-tom-holland-doctor-strange-sony.jpg?resize=768%2C432" alt='Spiderman and Doctor Strange'>
+            </figure>
+            <article id="article3"><h2 style="display:none">yey</h2>
+            Despite stirring fans with a debut trailer earlier this month, Spider-Man: No Way Home still seems to have more monumental secrets set to be unleashed before the film’s December arrival. With a multiverse-mired plot now confirmed, theories are rampant over the cadre of returning villains from past iterations and, more notably, the increasing expectation that former big-screen Wall-Crawlers Tobey Maguire and Andrew Garfield will join star Tom Holland. Consequently, Holland’s story about a scene has further stoked speculation.<br/><br/></article>
+            <article id="article4"><h2 style="display:none">yey</h2>
+            While the notoriously loose-lipped Holland has been walking a tightrope narrow enough to even challenge Spidey himself when discussing Spider-Man: No Way Home, his comments for an Empire cover story imply the involvement of a character whose mysterious status clearly raises eyebrows of intrigue. Holland, when pressed to describe his favorite scene in the upcoming threequel, offered a surprisingly understated answer about what he calls “one of the coolest scenes I’ve ever shot.” Eschewing ostentatious action sequences, Holland identifies a simple scene involving his Peter Parker, Aunt May (Marisa Tomei), Happy Hogan (Jon Favreau) and a conspicuously unnamed fourth participant. <a href="https://www.denofgeek.com/movies/spider-man-no-way-home-new-mcu-character/">Read More.</a></article>
+        </section>
+        <figure id="figure3"> <img src="shadowbgfinal.PNG" alt='Shadow Background'>               
+        </figure>
+        <section id="section2">
+        <h2 style="display:none">yey</h2>
+        <aside id="aside1">
+            <h4>M O V I E S</h4>
+            <h3>Check out our MOVIES page</h3>
+            <p>Watch the First Official Teaser for Marvel Studios' Doctor Strange in the Multiverse of Madness</p>
+            <iframe src="https://www.youtube.com/embed/Rt_UqUm38BI" title="YouTube video player"></iframe>
+            <p>“The Multiverse is a concept about which we know frighteningly little." Watch the official teaser for Marvel Studios' Doctor Strange in the Multiverse of Madness. Only in theaters May 6.</p>
+        </aside>
+        <aside id="aside2">
+            <h4>C O M I C S</h4>
+            <h3>Know about this more on our COMICS page</h3>
+            <p>Avengers: Tech-on by Jim Zub expected to release on April 5, 2022</p>
+            <figure id ="figure4"><img src ="https://i.annihil.us/u/prod/marvel/i/mg/8/90/610411a9d3aed/clean.jpg" alt='Avengers: Tech-on'></figure>
+        </aside>
+        </section>
+        <footer>
+            <aside id="aside4">
+            Copyright &copy; 2022 The Avenger Dispatch <br/>
+            TWITTER: @offical_avengerdispatch <br/>
+            INSTAGRAM: @theavengerdispatch
+            </aside>
+            <aside id="aside5">
+            <img src="https://www.freeiconspng.com/uploads/avengers-icon-22.png" alt="Logo">
+            </aside>
+        </footer>
+    </body>
+</html>
